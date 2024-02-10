@@ -50,7 +50,7 @@ jobs:
       - run: gradle test
 
       - codecov/upload:
-          file: coverage.xml
+          file: https://github.com/AM311/Quoridor_TEST/blob/main/.circleci/coverage.xml
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
