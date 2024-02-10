@@ -1,4 +1,4 @@
-# Quoridor_TEST
+# Quoridor - TEST
 
 Repository di test per il progetto "Quoridor".
 
