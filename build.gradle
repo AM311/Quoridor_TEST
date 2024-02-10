@@ -2,12 +2,15 @@ plugins {
     id 'java'
 }
 
+apply plugin: 'jacoco'
+
 group = 'it.units.sdm'
 version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
+
 
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.9.1')
@@ -17,3 +20,19 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+test.finalizedBy jacocoTestReport
+check.dependsOn jacocoTestCoverageVerification
+/*
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                counter = 'LINE'
+                value = 'COVEREDRATIO'
+                minimum = 1.0
+            }
+        }
+    }
+}
+*/
