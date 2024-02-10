@@ -14,32 +14,12 @@ jobs:
 
     steps:
       - checkout
-
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "build.gradle" }}
-            - v1-dependencies-
-
       - run: gradle dependencies
-
-      - save_cache:
-          paths:
-            - ~/.gradle
-          key: v1-dependencies-{{ checksum "build.gradle" }}
-
       - run: gradle test
-
-  codecov-update:
-    docker:
-      - image: cimg/openjdk:19.0
-
-    steps:
-      - checkout
-      - run: gradle build
-      - codecov/upload
+      - codecov/upload:
+          file: ./coverage.xml
 
 workflows:
   validate:
     jobs:
       - build
-      - codecov-update
