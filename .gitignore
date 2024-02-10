@@ -2,7 +2,7 @@
 /build/
 !src/**/build/
 
-!/build/reports/jacoco/test/
+!build/reports/jacoco/test/
 
 # Ignore Gradle GUI config
 gradle-app.setting
