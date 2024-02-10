@@ -25,6 +25,7 @@ check.dependsOn jacocoTestReport
 jacocoTestReport {
     reports {
         xml.required = true
+        xml.outputLocation = file("coverage/jacocoReport.xml")
         html.required = false
     }
 }
