@@ -7,6 +7,6 @@ import org.junit.jupiter.api.Test;
 public class TestClass {
 	@Test
 	void testMethod() {
-		Assertions.assertEquals(0, Model.return0());
+		Assertions.assertEquals(0, new Model().return0());
 	}
 }
