@@ -9,7 +9,7 @@ public class NewClass {
 	}
 
 	public int getNumber() {
-		return number+22;
+		return number+3;
 	}
 
 	public void setNumber(int number) {
