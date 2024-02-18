@@ -9,4 +9,12 @@ public class Model {
 	public static int return1() {
 		return 1;
 	}
+
+	public static int return2() {
+		return 2;
+	}
+
+	public static int return3() {
+		return 3;
+	}
 }
