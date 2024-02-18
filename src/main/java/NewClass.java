@@ -17,6 +17,6 @@ public class NewClass {
 	}
 
 	public void sayHello() {
-		System.out.println("Hello: " + number + "bubu");
+		System.out.println("Hello: " + number + ". Bye bye");
 	}
 }
