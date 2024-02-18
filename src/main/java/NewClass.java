@@ -13,7 +13,7 @@ public class NewClass {
 	}
 
 	public void setNumber(int number) {
-		this.number = number;
+		this.number = number+1;
 	}
 
 	public void sayHello() {
