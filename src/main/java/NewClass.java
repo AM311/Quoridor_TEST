@@ -15,4 +15,8 @@ public class NewClass {
 	public void setNumber(int number) {
 		this.number = number;
 	}
+
+	public void sayHello() {
+		System.out.println("Hello: " + number);
+	}
 }
