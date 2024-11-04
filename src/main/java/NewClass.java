@@ -9,11 +9,11 @@ public class NewClass {
 	}
 
 	public int getNumber() {
-		return number+3;
+		return number;
 	}
 
 	public void setNumber(int number) {
-		this.number = number+1;
+		this.number = number;
 	}
 
 	public void sayHello() {
