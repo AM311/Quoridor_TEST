@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GitSharedSettings">
-    <option name="FORCE_PUSH_PROHIBITED_PATTERNS">
+  <component name="IssueNavigationConfiguration">
+    <option name="links">
       <list>
-        <option value="master" />
+        <IssueNavigationLink>
+          <option name="issueRegexp" value="[A-Z]+\-\d+" />
+          <option name="linkRegexp" value="https://am311.youtrack.cloud/issue/$0" />
+        </IssueNavigationLink>
       </list>
     </option>
   </component>
