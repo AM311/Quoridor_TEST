@@ -9,6 +9,12 @@ public class TestClass {
 	void testMethod() {
 		Assertions.assertEquals(0, new Model().return0());
 	}
+
+	@Test
+	void testGetNew() {
+		Assertions.assertEquals(6, new NewClass(3).getNumber());
+	}
+
 	@Test
 	void testSetNew() {
 		NewClass n = new NewClass(1);
