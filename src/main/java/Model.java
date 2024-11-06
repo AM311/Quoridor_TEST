@@ -17,4 +17,7 @@ public class Model {
   public static int return3() {
     return return2() + return1();
   }
+  public static int return4() {
+    return return3() + return1();
+  }
 }
