@@ -19,7 +19,7 @@ public class Model {
   }
 
   public static int return2() {
-    return 1 + 1;
+    return 1 + return1();
   }
 
   public static int return5() {
@@ -30,7 +30,10 @@ public class Model {
     return 2 * return3();
   }
   public static int return7() {
-    return 2 * return3() + return1();
+    return 7;
+  }
+   public static int return8() {
+    return 8;
   }
 }
 
