@@ -6,6 +6,14 @@ public class Model {
     return 0;
   }
 
+  public static int return4() {
+    return return3() + return1();
+  }
+
+  public static int return3() {
+    return return2() + return1();
+  }
+
   public static int return1() {
     return 1;
   }
@@ -14,14 +22,12 @@ public class Model {
     return 1 + 1;
   }
 
-  public static int return3() {
-    return return2() + return1();
-  }
-  public static int return4() {
-    return return3() + return1();
-  }
-
   public static int return5() {
     return return3() + return2();
   }
+
+  public static int return6() {
+    return 2 * return3();
+  }
 }
+
