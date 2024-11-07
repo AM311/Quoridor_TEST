@@ -32,5 +32,8 @@ public class Model {
   public static int return7() {
     return 2 * return3() + return1();
   }
+   public static int return8() {
+    return 2 * return4();
+  }
 }
 
