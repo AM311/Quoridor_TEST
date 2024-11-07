@@ -19,7 +19,7 @@ public class Model {
   }
 
   public static int return2() {
-    return 1 + 1;
+    return 1 + return1();
   }
 
   public static int return5() {
