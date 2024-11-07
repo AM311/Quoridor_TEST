@@ -29,5 +29,8 @@ public class Model {
   public static int return6() {
     return 2 * return3();
   }
+  public static int return7() {
+    return 2 * return3() + return1();
+  }
 }
 
