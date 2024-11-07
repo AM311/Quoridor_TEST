@@ -20,4 +20,8 @@ public class Model {
   public static int return4() {
     return return3() + return1();
   }
+
+  public static int return5() {
+    return return3() + return2();
+  }
 }
