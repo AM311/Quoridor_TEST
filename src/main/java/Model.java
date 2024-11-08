@@ -39,7 +39,7 @@ public class Model {
     return 9;
   }
  public static int return10() {
-    return return5()*2;
+    return 5*2;
   }
 }
 
