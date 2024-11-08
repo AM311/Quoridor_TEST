@@ -27,19 +27,6 @@ public class Model {
   }
 
   public static int return6() {
-    return 2 * return3();
-  }
-  public static int return7() {
-    return 7;
-  }
-   public static int return8() {
-    return 8;
-  }
-  public static int return9() {
-    return 9;
-  }
- public static int return10() {
-    return 5*2;
+    return return2() * return3();
   }
 }
-
