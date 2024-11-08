@@ -38,5 +38,8 @@ public class Model {
   public static int return9() {
     return 9;
   }
+ public static int return10() {
+    return 5*2;
+  }
 }
 
